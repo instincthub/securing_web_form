@@ -70,6 +70,10 @@ fieldset {
 #contact textarea.err{
 	border:1px solid tomato;
 }
+#contact input.success,
+#contact textarea.success{
+	border:1px solid #00838F;
+}
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
@@ -120,4 +124,3 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
